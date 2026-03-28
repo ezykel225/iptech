@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="portal-container">
-      <h1 className="portal-title">Secure Guard Portal</h1>
+      <h1 className="portal-title">Secured Guard Portal</h1>
       <Login onLogin={login} />
       <div className="divider">OR</div>
       <Register onRegister={register} />
